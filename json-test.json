@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Test 1",
+        "start_date" : "2023-09-07 00:00:00",
+        "end_date": "2023-12-31 00:00:00",
+        "site": "https://pfizerpro.com.br",
+        "event": "Pageload",
+        "event_condition": "/vaccines/",
+        "floodlight_src": "10090001",
+        "floodlight_type": "test001",
+        "floodlight_cat": "vaccines_pages"
+    },
+    {
+        "name": "Test 2",
+        "start_date" : "2023-09-07 00:00:00",
+        "end_date": "2023-12-31 00:00:00",
+        "site": "https://pfizerpro.com.br",
+        "event": "Click",
+        "event_condition": "#video-page, .video-player",
+        "floodlight_src": "10090002",
+        "floodlight_type": "test002",
+        "floodlight_cat": "video_interactions"
+    },
+    {
+        "name": "Test 3",
+        "start_date" : "2023-10-07 00:00:00",
+        "end_date": "2023-12-31 00:00:00",
+        "site": "https://pfizerpro.com.br",
+        "event": "Click",
+        "event_condition": "/test/",
+        "floodlight_src": "10090001",
+        "floodlight_type": "test001",
+        "floodlight_cat": "vaccines_pages"
+    }
+]

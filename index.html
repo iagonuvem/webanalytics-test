@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Analytics Test</title>
+</head>
+<body>
+    <p>Test Mode:</p>
+    <div>
+        <input type="radio" id="testMode" name="testMode" value="true" checked />
+        <label for="huey">Yes</label>
+
+        <input type="radio" id="testMode" name="testMode" value="false"  />
+        <label for="huey">No</label>
+    </div>
+    <hr />
+
+    <h1>Exercise 1</h1>
+    <p>Click on the link to trigger the function:</p>
+    <ul>
+        <li>Lorem Ipsum dolor sit amet</li>
+        <li>Lorem Ipsum dolor sit amet <a id="analyticsTrigger" href="/">Home</a></li>
+    </ul>
+    
+    <hr/>
+
+    <h1>Exercise 2</h1>
+    <p>Add Values and click the button to Trigger the function:</p>
+    <input type="text" id="srcInput" placeholder="src" />
+    <input type="text" id="typeInput" placeholder="type"/>
+    <input type="text" id="catInput" placeholder="cat"/> 
+    <button id="createIframeBtn">Create Iframe</button>
+
+    <hr/>
+
+    <h1>Exercise 3</h1>
+    <p>Select the JSON file (One or Many) to Trigger the function:</p>
+    <input type="file" multiple id="jsonInput" accept="application/json"/>
+
+    <br/>
+    <p>This button is to create new Iframe AFTER you load the provided json file. It should call the iframe creation at the event "Click"</p>
+    <button id="video-page" class="video-player">TEST BUTTON</button>
+
+    <script src="./exercise1.js"></script>
+    <script src="./exercise2.js"></script>
+    <script src="./exercise3.js"></script>
+</body>
+</html>
